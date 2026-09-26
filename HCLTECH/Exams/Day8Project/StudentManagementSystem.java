@@ -149,21 +149,7 @@ public class StudentManagementSystem {
     }
 
     // Search student
-    static void searchStudent() {
-
-        System.out.print("Enter Student ID to search: ");
-        int id = sc.nextInt();
-
-        for (Student s : students) {
-            if (s.id == id) {
-                System.out.println("\nStudent Found:");
-                s.display();
-                return;
-            }
-        }
-
-        System.out.println("Student not found.");
-    }
+   
 
     // Update student
     static void updateStudent() {
